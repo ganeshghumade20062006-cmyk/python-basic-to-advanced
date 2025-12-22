@@ -318,5 +318,56 @@ print("the system add 1  and 8 noot adding 0.9 in answer")
 4
 5
 #..........
+#  Taking User Input in python
+# In python, we can take user input directly by using input() function.This input function gives a return value as string/character hence we have to pass that into a variable
+# Syntax:
+variable=input()
+a=input("Enter the name: ")
+print(a)
+# Output:
+# Enter the name: Ganesh
+# Ganesh
 
 
+
+a=input ()
+print(a)
+# output:
+# whhen the value of a is ganesh then the output ia ganesh
+
+
+
+b= input()
+print("my name is", b)
+# output:
+# b=Ganesh
+# my name is ganesh 
+
+c=input("enter your name: ")
+print("my name is", c)
+# output:
+# vaishhali 
+#  my name is vaishhal 
+
+x=input ("enter first number: ")
+y=("enter second number: ")
+print(x + y)
+# ("if x=12 and y=100 then te output  is 12100")
+# then to write in proper way or do additon then follow this steps ↓
+
+x=input ("enter first number: ")
+y=("enter second number: ")
+print("if x=12 and y=100 ↓ ")
+print (int(x) + int(y))
+# output=112
+
+a=input("enter your name :")
+print(a)
+# enter your name :yash 
+# yash
+1
+2
+3
+4
+5
+# ..........
