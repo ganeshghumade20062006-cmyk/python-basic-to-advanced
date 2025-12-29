@@ -1398,3 +1398,133 @@ else:
 # Number is between 11-20
 # ..........
 
+# Introduction to Loops
+# Sometimes a programmer wants to execute a group of statements a certain number of times. This can be done using loops. Based on this loops are further classified into following main types;
+
+# for loop
+# while loop
+# The for Loop
+# for loops can iterate over a sequence of iterable objects in python. Iterating over a sequence is nothing but iterating over strings, lists, tuples, sets and dictionaries.
+
+name="Ganesh"
+for i in name:
+    print(i)
+    if(i=="e"):
+        print("this is something special")
+# output= G
+# a
+# n
+# e
+# this is something special
+# s
+# h
+
+coloors= ["red", "green", "blue", "yellow"]
+for color in coloors:
+    print(color)
+    for i in color:
+        print(i)
+# output= red
+# r
+# e
+# d
+# green
+# g
+# r
+# e
+# e
+# n
+# blue
+# b
+# l
+# u
+# e
+# yellow
+# y
+# e
+# l
+# l
+# o
+# w
+
+# range():
+# What if we do not want to iterate over a sequence? What if we want to use for loop for a specific number of times?
+
+# Here, we can use the range() function.
+
+# Example:
+for k in range(5):
+    print(k)
+
+# Output:
+0
+1
+2
+3
+4
+# Here, we can see that the loop starts from 0 by default and increments at each iteration.
+
+
+for k in range(5):
+    print(k+1)
+
+# output= 1
+2
+3
+4
+5
+
+
+for k in range(5):
+    print(k+2)
+
+# output=
+2
+3
+4
+5
+6
+
+
+for k in range(4,9):
+    print(k)
+
+# Output:
+4
+5
+6
+7
+8
+
+# ? 
+for k in range (1, 12,3):
+    print(k)
+
+# output= 1
+4
+7
+10
+# explaination= 1 → 1
+# 1 + 3 → 4
+# 4 + 3 → 7
+# 7 + 3 → 10
+# 10 + 3 → 13 (stop, because 13 ≥ 12)
+
+for i in range(4):
+    print(i)
+# output= 0
+1
+2
+3
+# ok 
+
+
+1
+2
+3
+4
+5
+# ..........
+
+
+
