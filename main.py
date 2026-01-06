@@ -1396,5 +1396,156 @@ else:
 # Output:
 
 # Number is between 11-20
+1
+2
+3
+4
+5
+# ..........
+
+# break statement and Continue Statement
+# The break statement enables a program to skip over a part of the code. A break statement terminates the very loop it lies within.
+
+# example
+for i in range(1,101,1):
+    print(i ,end=" ")
+    if(i==50):
+        break
+    else:
+        print("Mississippi")
+print("Thank you")
+
+# output
+# 1 Mississippi
+# 2 Mississippi
+# 3 Mississippi
+# 4 Mississippi
+# 5 Mississippi
+# .
+# .
+# .
+# 50 Mississippi
+
+
+for i in range(12):
+    print("5 ×", i+1, "=", 5 * (i+1))
+    #  output= 
+    # 5 × 1 = 5
+# 5 ×  2 = 10
+# 5 ×  3 = 15
+# 5 ×  4 = 20
+# 5 ×  5 = 25
+# 5 ×  6 = 30
+# 5 ×  7 = 35
+# 5 ×  8 = 40
+# 5 ×  9 = 45
+# 5 ×  10 = 50
+# 5 ×  11 = 55
+# 5 ×  12 = 60
+
+for i in range(12):
+    print("5 × ", i+1, "=", 5 * (i+1))
+    if (i==10):    
+        break 
+print("skip the loop")     
+# output=
+# 5 ×  1 = 5
+# 5 ×  2 = 10
+# 5 ×  3 = 15
+# 5 ×  4 = 20
+# 5 ×  5 = 25
+# 5 ×  6 = 30
+# 5 ×  7 = 35
+# 5 ×  8 = 40
+# 5 ×  9 = 45
+# 5 ×  10 = 50
+# 5 ×  11 = 55
+# skip the loop
+
+
+# continue statement in python
+# The continue statement skips the rest of the loop statements and causes the next iteration to occur.
+
+for i in range (12):
+    if (i==10):    
+     print("skip thhe loop")
+     continue 
+    print ("5 × ", i, "=", 5 * i)
+    
+    # ooutput=
+#     5 ×  0 = 0
+# 5 ×  1 = 5
+# 5 ×  2 = 10
+# 5 ×  3 = 15
+# 5 ×  4 = 20
+# 5 ×  5 = 25
+# 5 ×  6 = 30
+# 5 ×  7 = 35
+# 5 ×  8 = 40
+# 5 ×  9 = 45
+# skip thhe loop
+# 5 ×  11 = 55
+
+
+
+
+# example
+for i in [2,3,4,6,8,0]:
+    if (i%2!=0):
+        continue
+    print(i)
+
+# output
+# 2
+# 4
+# 6
+# 8
+# 0
+
+
+
+i = 0
+while True:
+    print(i)
+    i=i+1
+    if(i%30==0):
+        break 
+
+    # output=
+0    
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+1
+2
+3
+4
+5
 # ..........
 
